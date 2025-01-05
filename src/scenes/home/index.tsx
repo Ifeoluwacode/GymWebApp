@@ -1,5 +1,5 @@
 import { SelectedPage } from "@/shared/types";
-import React from "react";
+
 import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import SponserRedbull from "@/assets/SponsorRedBull.png";
