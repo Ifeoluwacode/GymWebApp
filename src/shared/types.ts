@@ -15,3 +15,7 @@ export interface ClassType {
   description?: string;
   image: string;
 }
+export interface ToggleType {
+  false: boolean;
+  true: boolean;
+}

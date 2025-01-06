@@ -37,11 +37,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
-                  <Link
-                    page="About"
-                    selectedPage={selectedPage}
-                    setSelectedPage={setSelectedPage}
-                  />
+
                   <Link
                     page="Benefits"
                     selectedPage={selectedPage}
@@ -49,6 +45,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                   />
                   <Link
                     page="Our Classes"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="About"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
@@ -90,26 +91,36 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               page="Home"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              isMenuToggled={isMenuToggled}
+              setIsMenuToggled={setIsMenuToggled}
             />
-            <Link
+            {/* <Link
               page="About"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
-            />
+              isMenuToggled={isMenuToggled}
+              setIsMenuToggled={setIsMenuToggled}
+            /> */}
             <Link
               page="Benefits"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              isMenuToggled={isMenuToggled}
+              setIsMenuToggled={setIsMenuToggled}
             />
             <Link
               page="Our Classes"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              isMenuToggled={isMenuToggled}
+              setIsMenuToggled={setIsMenuToggled}
             />
             <Link
               page="Contact Us"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              isMenuToggled={isMenuToggled}
+              setIsMenuToggled={setIsMenuToggled}
             />
           </div>
         </div>
