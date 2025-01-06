@@ -12,39 +12,40 @@ import Class from "./Class";
 
 const classes: Array<ClassType> = [
   {
+    name: "Yoga Classes",
+    description:
+      "Join our Yoga Classes to enhance your flexibility, strength, and mindfulness. Our expert instructors guide you through each session, helping you find balance, improve posture, and promote overall well-being. Suitable for all levels!",
+    image: image3,
+  },
+  {
     name: "Weight Training Classes",
     description:
-      "officiis voluptatum quidem? Laboriosam asperiores velit hiccupiditate quo, adipisci exercitationem quasi deserunt nam eosesse obcaecati doloremque placeat dolor voluptatum",
+      "Strengthen and tone your body with our expert-led weight training classes. Suitable for all fitness levels, these sessions focus on building muscle, improving endurance, and enhancing overall strength through guided exercises and personalized coaching.",
     image: image1,
   },
   {
     name: "Fitness Classes",
     description:
-      "officiis voluptatum quidem? Laboriosam asperiores velit hiccupiditate quo, adipisci exercitationem quasi deserunt nam eosesse obcaecati doloremque placeat dolor voluptatum",
+      "Explore our wide range of fitness classes designed to suit all fitness levels. From high-energy group workouts to calming yoga sessions, our classes help you stay motivated, fit, and healthy.",
     image: image2,
   },
   {
-    name: "Adventure Classes",
+    name: " Strength & Conditioning Classes",
     description:
-      "officiis voluptatum quidem? Laboriosam asperiores velit hiccupiditate quo, adipisci exercitationem quasi deserunt nam eosesse obcaecati doloremque placeat dolor voluptatum",
-    image: image3,
-  },
-  {
-    name: "Ab core Classes",
-    description:
-      "officiis voluptatum quidem? Laboriosam asperiores velit hiccupiditate quo, adipisci exercitationem quasi deserunt nam eosesse obcaecati doloremque placeat dolor voluptatum",
-    image: image4,
-  },
-  {
-    name: "Yoga Classes",
-    description:
-      "officiis voluptatum quidem? Laboriosam asperiores velit hiccupiditate quo, adipisci exercitationem quasi deserunt nam eosesse obcaecati doloremque placeat dolor voluptatum",
+      "Boost your power, endurance, and overall fitness with our Strength & Conditioning classes. Designed for all levels, these sessions combine strength training and high-intensity exercises to build muscle, improve performance, and enhance overall health.",
     image: image5,
   },
   {
-    name: "Weight Training Classes",
+    name: "Cardio Classes",
     description:
-      "officiis voluptatum quidem? Laboriosam asperiores velit hiccupiditate quo, adipisci exercitationem quasi deserunt nam eosesse obcaecati doloremque placeat dolor voluptatum",
+      "Boost your endurance and burn calories with our energetic Cardio Classes! From Zumba to Kickboxing and Indoor Cycling, our cardio sessions are designed to get your heart pumping and help you achieve your fitness goals in a fun, high-energy environment. ",
+    image: image4,
+  },
+
+  {
+    name: "Stretching & Mobility Classes",
+    description:
+      "Enhance your flexibility and range of motion with our Stretching & Mobility Classes. Designed to improve joint health, reduce muscle stiffness, and prevent injury, these classes are perfect for all fitness levels. Move better, feel better!",
     image: image6,
   },
 ];
@@ -73,10 +74,13 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5 ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-              officiis voluptatum quidem? Laboriosam asperiores velit hic
-              cupiditate quo, adipisci, exercitationem quasi deserunt nam eos
-              esse obcaecati doloremque placeat dolor voluptatum.
+              At our gym, we offer a wide range of classes designed to help you
+              reach your fitness goals, no matter your level. From high-energy
+              cardio sessions to strength-building workouts and mindfulness
+              practices, our expert trainers guide you through every move.
+              Whether you're looking to lose weight, build muscle, or just stay
+              active, we have a class for you. Join us today and discover a
+              fitness routine that suits your lifestyle!
             </p>
           </div>
         </motion.div>

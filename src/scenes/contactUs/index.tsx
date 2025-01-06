@@ -10,17 +10,26 @@ type Props = {
 };
 
 const ContactUS = ({ setSelectedPage }: Props) => {
+  // const [isSuccessfull, setIsSuccessful] = useState<boolean>(false);
   const {
     register,
     trigger,
+    reset,
     formState: { errors },
   } = useForm();
   const onSubmit = async (e: any) => {
     const isValid = await trigger();
+
     if (!isValid) {
       e.preventDefault();
     }
+    reset({
+      keepValues: false,
+    });
   };
+  // useEffect(() => {
+  //   reset();
+  // }, [isSuccessfull]);
 
   const inputStyles = `w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white mb-5`;
   return (
@@ -45,10 +54,10 @@ const ContactUS = ({ setSelectedPage }: Props) => {
             TO GET IN SHAPE
           </HText>
           <p className="my-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolore
-            magnam doloribus alias consectetur esse accusamus nostrum iste
-            molestias dolor. Perspiciatis quisquam iste quam soluta dignissimos?
-            Aperiam repellendus animi minus!
+            Take the first step towards a healthier, stronger you! Join now and
+            enjoy expert guidance, state-of-the-art equipment, and personalized
+            fitness plans to help you achieve your goals. Your transformation
+            starts today!
           </p>
         </motion.div>
         {/* FORM AND IMAGE */}

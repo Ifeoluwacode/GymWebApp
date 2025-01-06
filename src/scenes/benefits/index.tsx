@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "in libero sit molestiae facilis, provident beatae molestias maxime",
+      "Experience top-tier fitness with our state-of-the-art facilities. From cutting-edge equipment to expertly designed spaces, we provide everything you need for an unparalleled workout.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100 of Diverse Classes",
     description:
-      "obcaecati fuga aperiam vitae distinctio inventore porro impedit esse",
+      "Choose from 100+ diverse classes designed to suit every fitness level and goal, including yoga, strength training, dance, and more. Find your perfect fit and stay motivated on your journey to health and wellness!",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
-    title: "Export and Pro Trainers",
+    title: "Expert and Pro Trainers",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores",
+      "Achieve your fitness goals with guidance from our expert and professional trainers. With years of experience and personalized training plans, they’re here to support you every step of the way.",
   },
 ];
 const container = {
@@ -59,11 +59,10 @@ const Benefits = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>MORE THAN JUST GYM.</HText>
-          <p className="my-5 text-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            obcaecati fuga aperiam vitae distinctio inventore porro impedit esse
-            in libero sit molestiae facilis, provident beatae molestias maxime
-            minima quisquam quae.
+          <p className="my-5 text-[1rem]">
+            Stay fit and achieve your goals with our gym website! Explore
+            membership options, book classes, access personalized workout plans,
+            and track your progress—all in one convenient platform.
           </p>
         </motion.div>
         {/* BENEFITS */}
@@ -127,16 +126,19 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                in minus libero nihil maxime suscipit eos quidem? Nostrum et
-                accusantium minus, libero maiores asperiores voluptas, magnam
-                omnis perferendis porro vel.
+                Join millions of happy members transforming their lives and
+                achieving their fitness goals! Experience state-of-the-art
+                facilities, expert coaching, personalized workout plans, and a
+                vibrant community that motivates and inspires. Whether you’re
+                just starting out or a fitness enthusiast, we have everything
+                you need to stay active, healthy, and strong. Your journey to a
+                healthier, happier you starts here—because fitness is not just a
+                goal, it's a lifestyle!
               </p>
               <p className="mb-5">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Molestias labore temporibus voluptatum facilis provident? Ipsa,
-                aspernatur praesentium. Quod tempore adipisci suscipit repellat,
-                quam tempora ullam nihil, aut quia error debitis!
+                Experience top-notch facilities, expert guidance, and
+                personalized workout plans tailored just for you. Your journey
+                to a healthier, stronger, and happier you starts here!
               </p>
             </motion.div>
 

@@ -42,11 +42,10 @@ const Home = ({ setSelectedPage }: Props) => {
                 <img src={HomePageText} alt="hone-page-text" />
               </div>
             </div>
-            <p className="mt-8 text-sm ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              ullam est libero reprehenderit voluptates quisquam recusandae quod
-              doloremque provident porro ex deserunt consectetur, amet id nam
-              sequi perferendis cum dolore.
+            <p className="mt-8 text-[1rem] ">
+              Experience fitness like never before with our gym website! Explore
+              membership plans, book classes, access personalized workout
+              programs, and stay motivated with expert tips—all in one place.
             </p>
           </motion.div>
           {/* ACTIOND */}
